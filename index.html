@@ -12,10 +12,10 @@
   <h1>Submit The Form</h1>
   <form name="Form" id="myForm" onsubmit="return formValidation()">
     <label for="firstName">First Name*:</label>
-    <input type="text" id="firstName" name="firstName">
+    <input type="text" id="firstName" name="firstName" minlength="2" maxlength="20">
 
     <label for="lastName">Last Name*:</label>
-    <input type="text" id="lastName" name="lastName">
+    <input type="text" id="lastName" name="lastName" minlength="2" maxlength="20">
 
     <label for="email">Email*:</label>
     <input type="email" id="email" name="email">
@@ -53,4 +53,5 @@
     <input type="submit" value="Submit">
   </form>
 </body>
+
 </html>
